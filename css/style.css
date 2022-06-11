@@ -199,3 +199,29 @@ con last-of-type que selecciona el ultimo elemento
         grid-column: 2 / 4;
     }
 }
+
+/*nosotros*/
+.nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+@media (min-width: 768px) {
+    .nosotros {
+        grid-template-columns: repeat(2, auto);
+        gap: 2rem;
+    }
+
+}
+
+.nosotros__imagen {
+    grid-row: 1 / 2;
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .nosotros__imagen {
+        grid-column: 2 / 3;
+    }
+
+}
