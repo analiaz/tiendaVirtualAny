@@ -122,3 +122,11 @@ h3 {
 .navegacion__enlace--activo {
     color: var(--secundario);
 }
+
+/*si no usas gap:2rem y terminas usandon en este caso 
+margin-rigth:2rem, el margen del elemento contiguo a 
+otro afecta la distancia, se puede eleminar ese margen
+con last-of-type que selecciona el ultimo elemento 
+    .navegacion__enlace:last-of-type 
+        margin-right: 0;
+*/
